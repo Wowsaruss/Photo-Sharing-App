@@ -4,7 +4,12 @@ class Landing extends React.Component {
     render() {
         return (
             <div>
-                <h1>Hello World</h1>
+                <div className='navbar-main' >
+                    <a>Home</a>
+                    <a>Search</a>
+                    <a>Profile</a>
+                    <a>Settings</a>
+                </div>
             </div>
         )
     }
