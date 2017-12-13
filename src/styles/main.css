@@ -6,18 +6,21 @@ body {
   margin: 0px; }
 
 .navbar-main {
-  background-color: tan;
+  position: fixed;
+  background-color: rgba(31, 31, 31, 0.728);
   height: 50px;
   width: 100vw; }
   .navbar-main a {
-    color: green; }
+    color: white; }
 
 .nav-logo {
   height: 30px;
   width: 30px;
   background-color: red; }
 
-.landing-main {
-  background-color: brown;
-  height: 600px;
-  width: 100vw; }
+.hero-image-landing {
+  background-image: url("https://static1.squarespace.com/static/55396962e4b053ce148cb1e1/t/57210fcab6aa60cca01f49fb/1461784525042/rolleiflex-brooklyn-film-camera.jpg?format=1500w");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center; }

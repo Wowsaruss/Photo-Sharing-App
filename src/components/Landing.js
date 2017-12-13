@@ -4,9 +4,8 @@ import React from 'react';
 class Landing extends React.Component {
     render() {
         return (
-            <div>
-                <div className='landing-main'>
-                    
+            <div className='landing-main'>
+                <div className='hero-image-landing' alt=''>
                 </div>
             </div>
         )

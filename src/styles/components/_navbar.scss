@@ -1,9 +1,10 @@
 .navbar-main {
-    background-color: tan;
+    position: fixed;
+    background-color: rgba(31, 31, 31, 0.728);
     height: 50px;
     width: 100vw;
     a {
-        color: green;
+        color: rgb(255, 255, 255);
     }
 }
 .nav-logo {
