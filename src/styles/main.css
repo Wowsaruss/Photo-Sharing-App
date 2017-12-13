@@ -1,0 +1,21 @@
+body {
+  padding: 0px;
+  border: 0px;
+  margin: 0px; }
+
+.navbar-main {
+  background-color: tan;
+  height: 50px;
+  width: 100vw; }
+  .navbar-main a {
+    color: green; }
+
+.nav-logo {
+  height: 30px;
+  width: 30px;
+  background-color: red; }
+
+.landing-main {
+  background-color: brown;
+  height: 600px;
+  width: 100vw; }
