@@ -6,3 +6,38 @@
     background-size: cover;
     background-position: center;
 }
+.filmshare-text-hero {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    padding-top: 100px;
+}
+.buttons-landing-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    button:hover {
+        background-color: rgb(255, 255, 190);
+        font-size: 20px;
+    }
+}
+.login-button-landing {
+    background-color: rgba(255, 255, 255, 0.256);
+    margin: 3px;
+    border: 0px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}
+.create-account-landing {
+    background-color: rgba(255, 255, 255, 0.256);
+    margin: 3px;
+    border: 0px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}

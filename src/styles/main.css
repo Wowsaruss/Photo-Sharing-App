@@ -8,15 +8,17 @@ body {
 .navbar-main {
   position: fixed;
   background-color: rgba(31, 31, 31, 0.728);
-  height: 50px;
+  height: 60px;
   width: 100vw; }
   .navbar-main a {
     color: white; }
 
 .nav-logo {
-  height: 30px;
-  width: 30px;
-  background-color: red; }
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px; }
 
 .hero-image-landing {
   background-image: url("https://static1.squarespace.com/static/55396962e4b053ce148cb1e1/t/57210fcab6aa60cca01f49fb/1461784525042/rolleiflex-brooklyn-film-camera.jpg?format=1500w");
@@ -24,3 +26,37 @@ body {
   width: 100%;
   background-size: cover;
   background-position: center; }
+
+.filmshare-text-hero {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  padding-top: 100px; }
+
+.buttons-landing-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .buttons-landing-main button:hover {
+    background-color: #ffffbe;
+    font-size: 20px; }
+
+.login-button-landing {
+  background-color: rgba(255, 255, 255, 0.256);
+  margin: 3px;
+  border: 0px;
+  height: 50px;
+  width: 200px;
+  cursor: pointer; }
+
+.create-account-landing {
+  background-color: rgba(255, 255, 255, 0.256);
+  margin: 3px;
+  border: 0px;
+  height: 50px;
+  width: 200px;
+  cursor: pointer; }

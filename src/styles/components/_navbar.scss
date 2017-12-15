@@ -1,14 +1,16 @@
 .navbar-main {
     position: fixed;
     background-color: rgba(31, 31, 31, 0.728);
-    height: 50px;
+    height: 60px;
     width: 100vw;
     a {
         color: rgb(255, 255, 255);
     }
 }
 .nav-logo {
-    height: 30px;
-    width: 30px;
-    background-color: red;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 5px;
 }
