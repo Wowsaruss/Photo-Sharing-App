@@ -8,7 +8,7 @@ class Navbar extends React.Component {
             <div>
                 <div className='navbar-main' >
                     <Link to='/'>
-                    <img className='nav-logo' src={logo} />
+                    <img className='nav-logo' src={logo} alt='' />
                     </Link>
                     <Link to='/dashboard'>Home</Link>
                     <Link to='/'>Search</Link>
