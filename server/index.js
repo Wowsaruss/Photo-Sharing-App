@@ -6,13 +6,19 @@ const cors = require('cors')
     , app = express()
     , port  =  4000;
 
+const controller = require('./controllers/controller');
+
 app.use(bodyParser.json());
 app.use(cors());
-app.use(express.static('build'))
+app.use(express.static('build'));
 
 massive(process.env.CONNECTION_STRING)
 .then( db => {
     app.set('db', db)
-})
+});
+
+// API's
+app.get('/api/get_users', controller.get_users);
+
 
 app.listen(port, () => console.log(`app listening on port ${port}`));
