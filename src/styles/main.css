@@ -9,7 +9,10 @@ body {
   position: fixed;
   background-color: rgba(31, 31, 31, 0.728);
   height: 60px;
-  width: 100vw; }
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   .navbar-main a {
     color: white; }
 
@@ -19,6 +22,14 @@ body {
   background-color: white;
   border-radius: 50%;
   padding: 5px; }
+
+.navbar-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%; }
+  .navbar-links a {
+    text-decoration: none; }
 
 .hero-image-landing {
   background-image: url("https://static1.squarespace.com/static/55396962e4b053ce148cb1e1/t/57210fcab6aa60cca01f49fb/1461784525042/rolleiflex-brooklyn-film-camera.jpg?format=1500w");

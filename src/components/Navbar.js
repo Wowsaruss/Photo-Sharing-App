@@ -4,8 +4,8 @@ import axios from 'axios';
 import logo from '../assets/Octicons-device-camera.svg';
 
 class Navbar extends React.Component {
-    constructor(props) {
-        super(props)
+    constructor() {
+        super()
         this.state = {
             users: []
         }
@@ -22,13 +22,13 @@ class Navbar extends React.Component {
     render() {
         
         return(
-            <div>
-                <div className='navbar-main' >
-                    <Link to='/'>
+            <div className='navbar-main' >
+                <Link to='/'>
                     <img className='nav-logo' src={logo} alt='' />
-                    </Link>
+                </Link>
+                <div className='navbar-links' >
                     <Link to='/dashboard'>Home</Link>
-                    <Link to='/'>Search</Link>
+                    <Link to='/explore'>Explore</Link>
                     <Link to='/'>Profile</Link>
                     <Link to='/'>Settings</Link>
                 </div>
