@@ -15,6 +15,17 @@ create table users (
     date_joined DATE
 );
 
+create table images (
+    id SERIAL PRIMARY KEY,
+    user_id INT REFERENCES users(id),
+    image_url TEXT,
+    title VARCHAR(50),
+    caption VARCHAR(200),
+    tags TEXT,
+    upload_date DATE,
+    people_in_image TEXT
+);
+
 insert into users
 (username, first_name, last_name, email, password, date_of_birth, profile_image, user_status, about_me, hometown, country, website, date_joined)
 values
