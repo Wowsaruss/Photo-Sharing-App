@@ -6,10 +6,10 @@ class Landing extends React.Component {
         return (
             <div className='landing-main'>
                 <div className='hero-image-landing' alt=''>
-                    <div className='filmshare-text-hero' >FILMSHARE</div>
+                    <div className='filmshare-text-hero' >EMULSION</div>
                     <div className='buttons-landing-main' >
-                        <button to='/dashboard' className='login-button-landing' >LOGIN</button>
-                        <button to='/dashboard' className='create-account-landing' >CREATE ACCOUNT</button>
+                        {/* <button className='login-button-landing' >LOGIN</button> */}
+                        <button className='create-account-landing' >Sign Up</button>
                     </div>
                 </div>
             </div>
