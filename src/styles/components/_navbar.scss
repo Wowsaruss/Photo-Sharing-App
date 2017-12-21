@@ -18,15 +18,18 @@
     padding: 5px;
 }
 .nav-logo-2 {
-    font-family: 'Crete Round', serif;
+    // font-family: 'Crete Round', serif;
+    font-family: 'Bungee Shade', cursive;
     font-size: 40px;
     padding-left: 10px;
+    text-decoration: none;
 }
 .navbar-links {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 70%;
+    font-family: 'Crete Round', serif;
     a {
         text-decoration: none;
     }
@@ -57,4 +60,5 @@
     font-size: 15px;
     border-radius: 4px;
     padding-left: 40px;
+    margin-right: 10px;
 }

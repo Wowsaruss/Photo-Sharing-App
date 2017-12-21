@@ -14,8 +14,7 @@
     align-items: center;
     font-size: 200px;
     padding-top: 100px;
-    // font-family: 'Anton', sans-serif;
-    font-family: 'Crete Round', serif;
+    font-family: 'Bungee Shade', cursive;
 }
 .buttons-landing-main {
     display: flex;
@@ -23,29 +22,19 @@
     justify-content: center;
     align-items: center;
     button:hover {
-        // background-color: rgb(255, 255, 190);
-        // font-size: 15px;
-        color: gray;
+        background-color: black;
+        color: rgba(254, 252, 252, 0.762);
     }
     button:focus {
         outline-width: 0;
     }
 }
-// .login-button-landing {
-//     background-color: rgba(255, 255, 255, 0.256);
-//     margin-top: 50px;
-//     border: 0px;
-//     height: 50px;
-//     width: 200px;
-//     font-size: 20px;
-//     cursor: pointer;
-// }
 .create-account-landing {
     background-color: rgba(254, 252, 252, 0.762);
     margin-top: 20px;
     border: 0px;
     height: 70px;
-    width: 200px;
+    width: 180px;
     font-size: 20px;
     cursor: pointer;
     border-radius: 3px;

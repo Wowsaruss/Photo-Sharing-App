@@ -25,7 +25,6 @@ class Navbar extends React.Component {
         return(
             <div className='navbar-main' >
                 <Link className='nav-logo-2' to='/'>
-                    {/* <img className='nav-logo' src={logo} alt='' /> */}
                     EMULSION
                 </Link>
                 <div className='navbar-links' >

@@ -6,7 +6,6 @@ class Explore extends React.Component {
         return (
             <div className='explore-background fadeInDown' >
                 <div className='explore-nav'>
-
                 </div>
             </div>
         )

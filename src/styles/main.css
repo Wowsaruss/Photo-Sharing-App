@@ -25,15 +25,17 @@ body {
   padding: 5px; }
 
 .nav-logo-2 {
-  font-family: 'Crete Round', serif;
+  font-family: 'Bungee Shade', cursive;
   font-size: 40px;
-  padding-left: 10px; }
+  padding-left: 10px;
+  text-decoration: none; }
 
 .navbar-links {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 70%; }
+  width: 70%;
+  font-family: 'Crete Round', serif; }
   .navbar-links a {
     text-decoration: none; }
   .navbar-links a:hover {
@@ -60,7 +62,8 @@ body {
   width: 290px;
   font-size: 15px;
   border-radius: 4px;
-  padding-left: 40px; }
+  padding-left: 40px;
+  margin-right: 10px; }
 
 .hero-image-landing {
   background-image: url("https://static1.squarespace.com/static/55396962e4b053ce148cb1e1/t/57210fcab6aa60cca01f49fb/1461784525042/rolleiflex-brooklyn-film-camera.jpg?format=1500w");
@@ -77,7 +80,7 @@ body {
   align-items: center;
   font-size: 200px;
   padding-top: 100px;
-  font-family: 'Crete Round', serif; }
+  font-family: 'Bungee Shade', cursive; }
 
 .buttons-landing-main {
   display: flex;
@@ -85,7 +88,8 @@ body {
   justify-content: center;
   align-items: center; }
   .buttons-landing-main button:hover {
-    color: gray; }
+    background-color: black;
+    color: rgba(254, 252, 252, 0.762); }
   .buttons-landing-main button:focus {
     outline-width: 0; }
 
@@ -94,7 +98,7 @@ body {
   margin-top: 20px;
   border: 0px;
   height: 70px;
-  width: 200px;
+  width: 180px;
   font-size: 20px;
   cursor: pointer;
   border-radius: 3px;
