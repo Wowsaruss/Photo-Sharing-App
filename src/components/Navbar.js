@@ -34,7 +34,7 @@ class Navbar extends React.Component {
                     <Link to='/'>SETTINGS</Link>
                 </div>
                 <div className='nav-search' >
-                    <img className='search-icon' src={search} alt='' />
+                    <a><img className='search-icon' src={search} alt='' /></a>
                     <input className='nav-search-input' placeholder='Search Photos' />
                 </div>
             </div>

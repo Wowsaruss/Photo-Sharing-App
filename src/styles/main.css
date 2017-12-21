@@ -52,9 +52,11 @@ body {
 .search-icon {
   position: relative;
   right: -38px;
+  top: 3px;
   height: 22px;
   width: auto;
-  padding-right: 5px; }
+  padding-right: 5px;
+  cursor: pointer; }
 
 .nav-search-input {
   background-color: #e3e3e3;
