@@ -4,7 +4,9 @@ class Dashboard extends React.Component {
     render() {
         return(
             <div>
-                World
+                <div className='modal-button'>
+                    <button>MODAL</button>
+                </div>
             </div>
         )
     }

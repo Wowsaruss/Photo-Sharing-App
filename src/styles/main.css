@@ -18,28 +18,31 @@ body {
     color: white; }
 
 .nav-logo {
-  height: 40px;
-  width: 40px;
-  background-color: white;
-  border-radius: 50%;
-  padding: 5px; }
-
-.nav-logo-2 {
   font-family: 'Bungee Shade', cursive;
   font-size: 40px;
   padding-left: 10px;
+  margin-right: 30px;
   text-decoration: none; }
+  .nav-logo a:hover {
+    color: #ffffbe; }
 
 .navbar-links {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 70%;
+  margin-right: 490px;
   font-family: 'Crete Round', serif; }
   .navbar-links a {
-    text-decoration: none; }
+    text-decoration: none;
+    padding: 30px; }
   .navbar-links a:hover {
     color: #ffffbe; }
+
+.upload-icon {
+  height: 45px;
+  width: auto;
+  color: white; }
 
 .nav-search {
   display: flex;
@@ -67,6 +70,48 @@ body {
   padding-left: 40px;
   margin-right: 10px; }
 
+.navbar {
+  overflow: hidden; }
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none; }
+
+.dropdown {
+  float: left;
+  overflow: hidden; }
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 60px;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left; }
+
+.dropdown-content a:hover {
+  background-color: #ddd; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
 .hero-image-landing {
   background-image: url("https://static1.squarespace.com/static/55396962e4b053ce148cb1e1/t/57210fcab6aa60cca01f49fb/1461784525042/rolleiflex-brooklyn-film-camera.jpg?format=1500w");
   height: 100vh;
@@ -83,6 +128,12 @@ body {
   font-size: 200px;
   padding-top: 100px;
   font-family: 'Bungee Shade', cursive; }
+
+.landing-catch-phrase {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Crete Round', serif; }
 
 .buttons-landing-main {
   display: flex;
@@ -105,6 +156,14 @@ body {
   cursor: pointer;
   border-radius: 3px;
   font-weight: bolder; }
+
+.modal-button {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .explore-background {
   background-image: url("https://farm5.staticflickr.com/4588/38472835604_3444c4f0e9_o.jpg");
